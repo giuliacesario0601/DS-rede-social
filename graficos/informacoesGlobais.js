@@ -26,6 +26,5 @@ async function visualizarInformacoesGlobais() {
         // fim aula 05 exibindo os dados iniciais
     }
 
-    visualizarInformacoesGlobais()
-
+   
     /*Aula 04 */
