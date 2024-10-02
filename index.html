@@ -7,13 +7,7 @@
     <title>Rede social</title>
 </head>
 <body>
-    <header>
-        <h1>Relatório das redes sociais</h1>
-        <nav>
-                <a href="index.html">Mundo</a>
-                <a href="#">Minha escola</a>
-        </nav>
-</header>
+    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
 
 <main class="graficos-section">
     <section id="graficos-container" class="graficos-container">
@@ -29,3 +23,14 @@
 </body script:module graficos/quantidadeUsuarios.js
 </html>
 <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+
+const data = [
+  {
+    x: 'nomeDasRedes',
+    y: quantidadeDeUsuarios,
+    type: 'bar',
+    marker: {
+      color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+    }
+  }
+]
