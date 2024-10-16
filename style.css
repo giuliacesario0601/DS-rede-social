@@ -76,4 +76,7 @@ span {
     color: var(--secondary-color);
 }
 
-/* Fim codigos aula 06*/
+
+.grafico {
+    margin-top: 3rem;
+}
